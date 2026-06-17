@@ -10,4 +10,13 @@ body{
 .cabecalho{
     text-align: center;
     background-color: rgb(246, 157, 169);
+    padding: 30px;
+}
+
+main{
+     background-color: blue;
+     color: brown;
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 16px;
 }
