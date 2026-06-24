@@ -15,4 +15,11 @@ body{
 .texto-post{
     margin-left: 40xp;
 }
+button{
+    width: 100xp;
+    padding: 10xp;
+    border-radius: 10xp;
+    background-color: blue;
+    color: white;
+}
 
