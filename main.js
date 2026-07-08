@@ -3,7 +3,7 @@ console.log(botoes)
 
 botoes.forEach(function(botao){
     let curtiu = false
-    botao.addEventlistener("click", botaoClicado)
+    botao.addEventListener("click", botaoClicado)
 
     function botaoClicado(){
         console.log("botao Clicado")
