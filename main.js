@@ -9,9 +9,9 @@ botoes.forEach(function(botao){
         console.log("botao Clicado")
         let texto = botao.querySelector("span")
         if(curtiu == false) {
-            texto.texContent++;
+            texto.textContent++;
         }else{
-            texto.texContent--;
+            texto.textContent--;
             curtiu = false
         }
     }
